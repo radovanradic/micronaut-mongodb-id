@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: micronautMongodbId
+netty:
+  default:
+    allocator:
+      max-order: 3
+mongodb:
+  uuid-representation: standard
